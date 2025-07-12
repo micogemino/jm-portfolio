@@ -1,6 +1,6 @@
 'use client';
 
-import { SiCakephp, SiJavascript, SiReact, SiJquery, SiMysql, SiAmazon, SiDocker, SiGit, SiHtml5, SiCss3, SiBootstrap, SiNodedotjs, SiNextdotjs, SiTailwindcss, SiDiscord, SiMui, SiTypescript } from 'react-icons/si';
+import { SiCakephp, SiJavascript, SiReact, SiJquery, SiMysql, SiAmazon, SiDocker, SiGit, SiHtml5, SiCss3, SiBootstrap, SiNodedotjs, SiNextdotjs, SiTailwindcss, SiDiscord, SiMui, SiTypescript, SiPhp, SiLaravel } from 'react-icons/si';
 import { FaAws } from 'react-icons/fa';
 import { TbApi } from 'react-icons/tb';
 import { BiBot } from 'react-icons/bi';
@@ -25,7 +25,7 @@ export default function TechIcon({ tech, className = "w-4 h-4" }: TechIconProps)
     'Viber API': <SiViber className={className} style={iconStyle} title="Viber API" />,
     'Discord Webhook': <SiDiscord className={className} style={iconStyle} title="Discord Webhook" />,
     'Discord Bot': <BiBot className={className} style={iconStyle} title="Discord Bot" />,
-    'Node.JS': <SiNodedotjs className={className} style={iconStyle} title="Node.JS" />,
+    'Node.js': <SiNodedotjs className={className} style={iconStyle} title="Node.js" />,
     'IndexDB': <TbApi className={className} style={iconStyle} title="IndexDB" />,
     'Material UI': <SiMui className={className} style={iconStyle} title="Material UI" />,
     'Next.js': <SiNextdotjs className={className} style={iconStyle} title="Next.js" />,
@@ -35,6 +35,8 @@ export default function TechIcon({ tech, className = "w-4 h-4" }: TechIconProps)
     'Git': <SiGit className={className} style={iconStyle} title="Git" />,
     'HTML': <SiHtml5 className={className} style={iconStyle} title="HTML5" />,
     'CSS': <SiCss3 className={className} style={iconStyle} title="CSS3" />,
+    'PHP': <SiPhp className={className} style={iconStyle} title="PHP" />,
+    'Laravel': <SiLaravel className={className} style={iconStyle} title="Laravel" />,
   };
 
   return icons[tech] || <span className={className} style={iconStyle}>💻</span>;

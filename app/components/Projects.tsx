@@ -71,7 +71,7 @@ export default function Projects() {
     {
       title: 'Discord Bot',
       description: 'A Discord bot with custom commands for Doovop integration, allowing users to check task status, bug reports, and system login information directly from Discord. Streamlines remote work monitoring by eliminating the need to switch between applications for status updates.',
-      technologies: ['Node.JS', 'MySQL', 'Discord Bot'],
+      technologies: ['Node.js', 'MySQL', 'Discord Bot'],
       link: '#',
       github: '#'
     },
