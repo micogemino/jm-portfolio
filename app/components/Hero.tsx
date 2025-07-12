@@ -48,7 +48,7 @@ export default function Hero() {
               View Projects
             </a>
             <a
-              href="/JM-CV.pdf"
+              href="/John Michael Gemino CV.pdf"
               download
               className="px-8 py-3 border-2 border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 text-center"
             >
