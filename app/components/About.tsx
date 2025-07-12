@@ -1,16 +1,15 @@
 'use client';
 
+import TechIcon from './TechIcon';
+
 export default function About() {
-  const skills = [
-    { name: 'CakePHP', level: 90 },
-    { name: 'MYSQL', level: 90 },
-    { name: 'PHP', level: 80 },
-    { name: 'Javascript', level: 80 },
-    { name: 'AWS (EC2, S3, ApiGateway)', level: 75 },
-    { name: 'Docker', level: 70 },
-    { name: 'React/Next.js', level: 55 },
-    { name: 'Laravel', level: 50 },
-  ];
+  const techStack = {
+    'Backend': ['PHP', 'CakePHP', 'Laravel', 'MySQL', 'Node.js'],
+    'Frontend': ['React', 'Next.js', 'JavaScript', 'HTML', 'CSS', 'TypeScript'],
+    'Styling': ['Tailwind CSS', 'Bootstrap', 'Material UI'],
+    'Cloud & DevOps': ['AWS', 'Docker', 'Git'],
+    'APIs & Tools': ['jQuery', 'Viber API', 'Discord Webhook', 'Discord Bot']
+  };
 
   return (
     <section id="about" className="py-20 bg-[var(--background)] text-[var(--foreground)]">
@@ -37,7 +36,7 @@ export default function About() {
               <svg className="w-5 h-5 mr-1 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
-              <a href="mailto:gmnojm@gmail.com" className="hover:underline">gmnojm@gmail.com</a>
+              <a href="mailto:johnmichaelgemino.dev@gmail.com" className="hover:underline">johnmichaelgemino.dev@gmail.com</a>
             </span>
             <span className="hidden sm:inline">•</span>
             <span className="flex items-center gap-1">
@@ -100,20 +99,27 @@ export default function About() {
 
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-[var(--foreground)]">
-              Skills Overview
+              Tech Stack
             </h3>
-            <div className="space-y-4">
-              {skills.map((skill) => (
-                <div key={skill.name} className="space-y-2">
-                  <div className="flex justify-between text-sm">
-                    <span className="text-[var(--foreground)]">{skill.name}</span>
-                    <span className="text-[var(--foreground)]">{skill.level}%</span>
-                  </div>
-                  <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
-                    <div
-                      className="bg-blue-600 h-2 rounded-full transition-all duration-1000"
-                      style={{ width: `${skill.level}%` }}
-                    ></div>
+            <div className="space-y-6">
+              {Object.entries(techStack).map(([category, technologies]) => (
+                <div key={category} className="space-y-3">
+                  <h4 className="text-lg font-medium text-[var(--foreground)] text-blue-600 dark:text-blue-400">
+                    {category}
+                  </h4>
+                  <div className="flex flex-wrap gap-3">
+                    {technologies.map((tech) => (
+                      <div
+                        key={tech}
+                        className="flex items-center gap-2 px-3 py-2 bg-[var(--card)] border border-[var(--border)] rounded-lg hover:bg-[var(--accent)] transition-colors duration-200"
+                        title={tech}
+                      >
+                        <TechIcon tech={tech} className="w-4 h-4" />
+                        <span className="text-sm font-medium text-[var(--foreground)]">
+                          {tech}
+                        </span>
+                      </div>
+                    ))}
                   </div>
                 </div>
               ))}

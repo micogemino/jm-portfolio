@@ -10,7 +10,7 @@ export default function Experience() {
       period: "2021 - Present",
       location: "Philippines",
       description: "Mentored junior developers through 1900+ code reviews, enforcing coding standards and improving overall code quality by 30%. Collaborated closely with product managers to define project roadmaps, aligning technical execution with business objectives and stakeholder expectations. Oversaw the enhancement and maintenance of 8+ web applications serving the FMCG sector, spanning administration, ticketing, logistics, asset and project management, and API integrations. Led a team of 6 developers to consistently deliver updates on time and with high client satisfaction.",
-      technologies: ["CakePHP", "JavaScript", "React", "jQuery", "MySQL", "AWS", "Docker", "Git"],
+      technologies: ["CakePHP", "JavaScript", "Bootstrap", "React", "jQuery", "MySQL", "AWS", "Docker", "Git"],
       achievements: [
         "Mentored junior developers through 1900+ code reviews",
         "Improved code quality by 30%",
@@ -24,7 +24,7 @@ export default function Experience() {
       period: "2020 - 2021",
       location: "Philippines",
       description: "Resolved coding issues and reduced post-deployment bugs by proactively troubleshooting, debugging, and testing, leading to more stable and efficient software releases. Modernized legacy codebases to meet current development standards, improving overall functionality, maintainability, and team productivity. Collaborated with cross-functional teams and contributed to a positive team culture through effective communication, problem-solving, and on-time delivery under tight deadlines.",
-      technologies: ["CakePHP", "JavaScript", "React", "jQuery", "MySQL", "AWS", "Docker", "Git"],
+      technologies: ["CakePHP", "JavaScript", "Bootstrap", "jQuery", "MySQL", "AWS", "Docker", "Git"],
       achievements: [
         "Reduced post-deployment bugs through proactive troubleshooting",
         "Modernized legacy codebases for better maintainability",
@@ -37,7 +37,7 @@ export default function Experience() {
       period: "2019 - 2020",
       location: "Philippines",
       description: "Built and customized features for existing web applications, delivering tailored solutions based on specific client requirements. Improved application stability and performance by identifying and resolving bugs through systematic testing and debugging.",
-      technologies: ["CakePHP", "JavaScript", "HTML", "CSS", "MySQL"],
+      technologies: ["CakePHP", "JavaScript", "Bootstrap", "HTML", "CSS", "MySQL"],
       achievements: [
         "Delivered tailored solutions for client requirements",
         "Improved application stability and performance"
