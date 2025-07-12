@@ -18,8 +18,8 @@ export default function Header() {
             <Image
               src={theme === 'dark' ? "/logos/portfolio-light.png" : "/logos/portfolio-dark.png"}
               alt="{gmnjm} </>"
-              width={128}
-              height={128}
+              width={70}
+              height={70}
               className="object-contain"
               priority
             />

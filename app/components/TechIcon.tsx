@@ -1,6 +1,6 @@
 'use client';
 
-import { SiCakephp, SiJavascript, SiReact, SiJquery, SiMysql, SiAmazon, SiDocker, SiGit, SiHtml5, SiCss3, SiBootstrap, SiNodedotjs, SiNextdotjs, SiTailwindcss, SiDiscord, SiMui } from 'react-icons/si';
+import { SiCakephp, SiJavascript, SiReact, SiJquery, SiMysql, SiAmazon, SiDocker, SiGit, SiHtml5, SiCss3, SiBootstrap, SiNodedotjs, SiNextdotjs, SiTailwindcss, SiDiscord, SiMui, SiTypescript } from 'react-icons/si';
 import { FaAws } from 'react-icons/fa';
 import { TbApi } from 'react-icons/tb';
 import { BiBot } from 'react-icons/bi';
@@ -30,6 +30,7 @@ export default function TechIcon({ tech, className = "w-4 h-4" }: TechIconProps)
     'Material UI': <SiMui className={className} style={iconStyle} title="Material UI" />,
     'Next.js': <SiNextdotjs className={className} style={iconStyle} title="Next.js" />,
     'Tailwind CSS': <SiTailwindcss className={className} style={iconStyle} title="Tailwind CSS" />,
+    'TypeScript': <SiTypescript className={className} style={iconStyle} title="TypeScript" />,
     'Docker': <SiDocker className={className} style={iconStyle} title="Docker" />,
     'Git': <SiGit className={className} style={iconStyle} title="Git" />,
     'HTML': <SiHtml5 className={className} style={iconStyle} title="HTML5" />,
