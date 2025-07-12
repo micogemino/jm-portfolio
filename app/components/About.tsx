@@ -59,25 +59,28 @@ export default function About() {
                 <span className="font-semibold">Languages:</span> PHP, JavaScript, HTML, CSS
               </div>
               <div>
-                <span className="font-semibold">Backend Frameworks:</span> CakePHP, Laravel, Next.js, Node.js
+                <span className="font-semibold">Development Methodologies:</span> Agile, CI/CD, Test-Driven Development (TDD)
               </div>
               <div>
-                <span className="font-semibold">Frontend Frameworks:</span> React, Next.js
+                <span className="font-semibold">Version Control & Collaboration:</span> Git, GitHub
               </div>
               <div>
-                <span className="font-semibold">CSS Frameworks:</span> Tailwind CSS, Bootstrap
+                <span className="font-semibold">API Development:</span> RESTful API Design & Integration
               </div>
               <div>
-                <span className="font-semibold">Utilities:</span> jQuery
+                <span className="font-semibold">Frontend & Backend Concepts:</span> Component-based architecture, MVC pattern
               </div>
               <div>
-                <span className="font-semibold">Databases:</span> MySQL, MariaDB, IndexDB
+                <span className="font-semibold">Database Design & Optimization:</span> Relational databases, query optimization
               </div>
               <div>
-                <span className="font-semibold">Tools & Platforms:</span> AWS, Docker, Git
+                <span className="font-semibold">Cloud & DevOps Practices:</span> Containerization (Docker), Deployment to AWS
               </div>
               <div>
-                <span className="font-semibold">Methodologies:</span> Agile, CI/CD, TDD, RESTful API Development
+                <span className="font-semibold">Cross-functional Collaboration:</span> Team leadership, technical mentoring, code review
+              </div>
+              <div>
+                <span className="font-semibold">Project & Knowledge Management Tools:</span> Notion
               </div>
             </div>
 
