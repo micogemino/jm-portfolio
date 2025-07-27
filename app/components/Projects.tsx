@@ -90,6 +90,13 @@ export default function Projects() {
       link: '#',
       github: '#'
     },
+    {
+      title: 'Task Manager',
+      description: 'A modern task management application built with Laravel 11, React, Inertia.js, and Tailwind CSS. This application allows users to manage their tasks efficiently, with features such as user authentication, task CRUD operations, tagging system, filtering, and soft delete functionality.',
+      technologies: ['Laravel', 'React', 'Inertia.js', 'Tailwind CSS', 'PostgreSQL', 'Docker', 'CursorAI'],
+      link: 'https://task-manager-y2wx.onrender.com/',
+      github: '#'
+    },
   ];
 
   return (

@@ -1,10 +1,10 @@
 'use client';
 
-import { SiCakephp, SiJavascript, SiReact, SiJquery, SiMysql, SiAmazon, SiDocker, SiGit, SiHtml5, SiCss3, SiBootstrap, SiNodedotjs, SiNextdotjs, SiTailwindcss, SiDiscord, SiMui, SiTypescript, SiPhp, SiLaravel } from 'react-icons/si';
+import { SiCakephp, SiJavascript, SiReact, SiJquery, SiMysql, SiAmazon, SiDocker, SiGit, SiHtml5, SiCss3, SiBootstrap, SiNodedotjs, SiNextdotjs, SiTailwindcss, SiDiscord, SiMui, SiTypescript, SiPhp, SiLaravel, SiInertia, SiPostgresql, SiViber } from 'react-icons/si';
 import { FaAws } from 'react-icons/fa';
 import { TbApi } from 'react-icons/tb';
 import { BiBot } from 'react-icons/bi';
-import { SiViber } from 'react-icons/si';
+import { BsCursor } from 'react-icons/bs';
 
 interface TechIconProps {
   tech: string;
@@ -37,6 +37,9 @@ export default function TechIcon({ tech, className = "w-4 h-4" }: TechIconProps)
     'CSS': <SiCss3 className={className} style={iconStyle} title="CSS3" />,
     'PHP': <SiPhp className={className} style={iconStyle} title="PHP" />,
     'Laravel': <SiLaravel className={className} style={iconStyle} title="Laravel" />,
+    'Inertia.js': <SiInertia className={className} style={iconStyle} title="Inertia" />,
+    'PostgreSQL': <SiPostgresql className={className} style={iconStyle} title="PostgreSQL" />,
+    'CursorAI': <BsCursor className={className} style={iconStyle} title="CursorAI" />,
   };
 
   return icons[tech] || <span className={className} style={iconStyle}>💻</span>;
