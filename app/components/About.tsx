@@ -4,11 +4,12 @@ import TechIcon from './TechIcon';
 
 export default function About() {
   const techStack = {
-    'Backend': ['PHP', 'CakePHP', 'Laravel', 'MySQL', 'Node.js'],
-    'Frontend': ['React', 'Next.js', 'JavaScript', 'HTML', 'CSS', 'TypeScript'],
-    'Styling': ['Tailwind CSS', 'Bootstrap', 'Material UI'],
-    'Cloud & DevOps': ['AWS', 'Docker', 'Git'],
-    'APIs & Tools': ['jQuery', 'Viber API', 'Discord Webhook', 'Discord Bot']
+    'Backend & APIs': ['PHP', 'CakePHP', 'Laravel', 'REST APIs', 'Node.js'],
+    'Databases': ['MySQL', 'MariaDB', 'PostgreSQL', 'SQLite'],
+    'Cloud & Integrations': ['AWS', 'Google Play Billing', 'Viber API', 'Discord Webhook', 'Discord Bot'],
+    'Mobile & AI-Assisted': ['Flutter', 'Dart', 'ML Kit OCR', 'AI-Assisted Dev'],
+    'Frontend': ['JavaScript', 'jQuery', 'React', 'Next.js', 'TypeScript', 'HTML', 'CSS', 'Tailwind CSS', 'Bootstrap', 'Material UI'],
+    'DevOps & Collaboration': ['Docker', 'Git', 'GitHub', 'Bitbucket', 'Jira', 'CI/CD', 'Agile', 'TDD']
   };
 
   return (
@@ -18,8 +19,8 @@ export default function About() {
           <h2 className="text-4xl font-bold text-[var(--foreground)] mb-4">
             About Me
           </h2>
-          <p className="text-xl text-[var(--foreground)] max-w-3xl mx-auto mb-4">
-            Full Stack Developer with over 6 years of experience building and optimizing scalable backend systems using PHP, CakePHP, MySQL, and AWS, alongside dynamic front-end development with JavaScript, jQuery, React, and CSS. Skilled in Agile development, CI/CD implementation, and writing clean, maintainable code. Experienced in mentoring junior developers and collaborating cross-functionally to deliver high-quality applications on time. Passionate about problem-solving, performance tuning, and delivering impactful software solutions.
+          <p className="text-xl text-[var(--foreground)] max-w-3xl mx-auto mb-4 leading-relaxed">
+            PHP Senior API Developer with 7+ years of experience building and maintaining backend systems, REST APIs, and data-intensive business workflows using PHP, CakePHP, MySQL/MariaDB, and AWS. Proven record of delivering urgent and critical enhancements and resolving production issues on time for an Australian aged-care platform. Former development leader experienced in mentoring engineers, code review, and cross-functional delivery. Also builds mobile products through AI-assisted development, including Tranza, an offline-first Flutter Android application.
           </p>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 text-base text-[var(--muted)]">
             <span className="flex items-center gap-1">
@@ -56,47 +57,53 @@ export default function About() {
             </h3>
             <div className="space-y-4">
               <div>
-                <span className="font-semibold">Languages:</span> PHP, JavaScript, HTML, CSS
+                <span className="font-semibold text-blue-600 dark:text-blue-400">Backend & APIs:</span> PHP, CakePHP, Laravel, REST API design, Node.js
               </div>
               <div>
-                <span className="font-semibold">Development Methodologies:</span> Agile, CI/CD, Test-Driven Development (TDD)
+                <span className="font-semibold text-blue-600 dark:text-blue-400">Databases:</span> MySQL, MariaDB, PostgreSQL, SQLite, relational modeling, query optimization
               </div>
               <div>
-                <span className="font-semibold">Version Control & Collaboration:</span> Git, GitHub
+                <span className="font-semibold text-blue-600 dark:text-blue-400">Cloud & Integrations:</span> AWS (S3, EC2, API Gateway), Google Play Billing
               </div>
               <div>
-                <span className="font-semibold">API Development:</span> RESTful API Design & Integration
+                <span className="font-semibold text-blue-600 dark:text-blue-400">Mobile & AI-Assisted Development:</span> Flutter, Dart, ML Kit OCR, offline-first architecture, AI-augmented development workflows
               </div>
               <div>
-                <span className="font-semibold">Frontend & Backend Concepts:</span> Component-based architecture, MVC pattern
+                <span className="font-semibold text-blue-600 dark:text-blue-400">Frontend:</span> JavaScript, jQuery, React, Next.js, TypeScript, HTML, CSS, Tailwind CSS, Bootstrap, Material UI
               </div>
               <div>
-                <span className="font-semibold">Database Design & Optimization:</span> Relational databases, query optimization
-              </div>
-              <div>
-                <span className="font-semibold">Cloud & DevOps Practices:</span> Containerization (Docker), Deployment to AWS
-              </div>
-              <div>
-                <span className="font-semibold">Cross-functional Collaboration:</span> Team leadership, technical mentoring, code review
-              </div>
-              <div>
-                <span className="font-semibold">Project & Knowledge Management Tools:</span> Notion
+                <span className="font-semibold text-blue-600 dark:text-blue-400">DevOps & Collaboration:</span> Docker, Git, GitHub, Bitbucket, Jira, CI/CD, Agile, TDD, code review
               </div>
             </div>
 
-            <h3 className="text-2xl font-semibold text-[var(--foreground)] pt-8">
+            <h3 className="text-2xl font-semibold text-[var(--foreground)] pt-6">
               Leadership & Soft Skills
             </h3>
-            <ul className="list-disc list-inside space-y-1 text-[var(--foreground)]">
-              <li>Team Leadership</li>
-              <li>Mentorship</li>
-              <li>Technical Decision-Making</li>
-              <li>Code Review & Quality Assurance</li>
-              <li>Cross-Functional Collaboration</li>
-              <li>Project Roadmap Development</li>
-              <li>Problem-solving</li>
-              <li>Communication</li>
-              <li>Adaptability</li>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[var(--foreground)]">
+              <li className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                Team Leadership
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                Mentorship (1,900+ Code Reviews)
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                Technical Decision-Making
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                Code Review & Quality Assurance
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                Cross-Functional Collaboration
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                Problem-Solving
+              </li>
             </ul>
           </div>
 
@@ -110,7 +117,7 @@ export default function About() {
                   <h4 className="text-lg font-medium text-[var(--foreground)] text-blue-600 dark:text-blue-400">
                     {category}
                   </h4>
-                  <div className="flex flex-wrap gap-3">
+                  <div className="flex flex-wrap gap-2.5">
                     {technologies.map((tech) => (
                       <div
                         key={tech}

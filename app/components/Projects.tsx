@@ -8,6 +8,14 @@ export default function Projects() {
   const { theme } = useTheme();
   const projects = [
     {
+      title: 'Tranza',
+      description: 'An offline-first Android mobile application built with Flutter and Dart, featuring on-device ML Kit OCR for automated receipt scanning, AI-assisted development workflows, local SQLite database synchronization, and Google Play Billing integration.',
+      technologies: ['Flutter', 'Dart', 'ML Kit OCR', 'SQLite', 'Google Play Billing', 'AI-Assisted Dev'],
+      logo: '/logos/tranza.png',
+      link: '#',
+      github: '#'
+    },
+    {
       title: 'Engagia Admin System (EAS)',
       description: 'The most complete, easiest to use and end to end integrated sales force automation system designed for consumer goods.',
       technologies: ['CakePHP', 'JavaScript', 'jQuery', 'MySQL', 'Bootstrap'],

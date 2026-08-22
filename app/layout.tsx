@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "JM Portfolio",
-  description: "Full Stack Developer Portfolio",
+  title: "John Michael Gemino | PHP Senior API Developer",
+  description: "PHP Senior API Developer with 7+ years of experience building and maintaining backend systems, REST APIs, and data-intensive business workflows.",
 };
 
 export default function RootLayout({

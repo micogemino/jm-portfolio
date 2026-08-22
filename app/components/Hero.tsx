@@ -36,7 +36,7 @@ export default function Hero() {
             </div>
             
             <p className="text-lg sm:text-xl md:text-2xl text-[var(--foreground)] max-w-3xl mx-auto leading-relaxed">
-              Full Stack Developer passionate about creating beautiful and functional web applications
+              PHP Senior API Developer with 7+ years of experience building robust backend systems, scalable REST APIs, and AI-assisted mobile solutions.
             </p>
           </div>
           
@@ -48,8 +48,8 @@ export default function Hero() {
               View Projects
             </a>
             <a
-              href="/John Michael Gemino CV.pdf"
-              download
+              href="/JM-CV.pdf"
+              download="John-Michael-Gemino-CV.pdf"
               className="px-8 py-3 border-2 border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 text-center"
             >
               Download CV

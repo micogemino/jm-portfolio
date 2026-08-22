@@ -5,9 +5,9 @@ export default function Footer() {
     <footer className="py-12 bg-[var(--background)] text-[var(--foreground)] border-t border-gray-200 dark:border-gray-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-center text-center gap-6">
-          <h3 className="text-xl font-bold mb-2 text-[var(--foreground)]">JM Portfolio</h3>
+          <h3 className="text-xl font-bold mb-2 text-[var(--foreground)]">John Michael Gemino</h3>
           <p className="text-[var(--foreground)] mb-4 max-w-2xl">
-            Full Stack Developer passionate about creating beautiful and functional web applications.
+            PHP Senior API Developer with 7+ years of experience building scalable backend systems, REST APIs, and modern software solutions.
           </p>
           
           {/* Quick Links - Aligned with header navigation */}
